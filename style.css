@@ -9,7 +9,8 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-    background: black;
+    background: #081b29;
+    color: #ededed;
 }
 
 .header{
@@ -41,6 +42,21 @@ body{
     transition: .3s;
 }
 
-.nav a:hover{
+.nav a:hover, .nav a.active{
     color: #3e78c4;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
 }
